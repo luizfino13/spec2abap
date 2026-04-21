@@ -1,0 +1,40 @@
+{
+  "global": {
+    "files": "/src/**",
+    "exclude": []
+  },
+  "syntax": {
+    "version": "757",
+    "errorNamespace": "^Z"
+  },
+  "rules": {
+    "allowed_object_types": {
+      "allowed": ["PROG", "TABL", "DTEL", "DOMA", "CLAS", "INTF"]
+    },
+    "comment_style": true,
+    "double_space": true,
+    "empty_line_in_statement": true,
+    "exporting": true,
+    "functional_writing": true,
+    "indentation": true,
+    "keyword_case": {
+      "style": "upper"
+    },
+    "line_length": {
+      "length": 120
+    },
+    "local_variable_names": {
+      "patternKind": "required",
+      "local": "^l._",
+      "constants": "^lc_",
+      "field_symbols": "^"
+    },
+    "method_length": {
+      "statements": 40
+    },
+    "names_no_dash": true,
+    "no_aliases": true,
+    "no_chained_assignment": true,
+    "unused_variables": true
+  }
+}
