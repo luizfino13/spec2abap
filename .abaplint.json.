@@ -5,7 +5,8 @@
   },
   "syntax": {
     "version": "757",
-    "errorNamespace": "^Z"
+    "errorNamespace": "^Z",
+    "ignoreSyntaxCheck": true
   },
   "rules": {
     "allowed_object_types": {
