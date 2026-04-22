@@ -1,0 +1,16 @@
+name: abaplint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: abaplint/abaplint@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
